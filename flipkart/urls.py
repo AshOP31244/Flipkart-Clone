@@ -22,7 +22,10 @@ from products.views import home, customer_care
 from . import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin/', include('admin.urls')),
+
+   
+    path('django-admin/', django_admin.site.urls),
     path('', home, name='home'),  # Home page
     path('users/', include('users.urls')),
     path('cart/', include('cart.urls')),
