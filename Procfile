@@ -1,1 +1,1 @@
-web: gunicorn flipkart.wsgi
+web: gunicorn flipkart.wsgi:application --bind 0.0.0.0:$PORT
