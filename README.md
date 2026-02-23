@@ -6,10 +6,9 @@
 
 ---
 
-## 🌐 Live Demo
+🚀 Live Project
 
-🚀 **Live Link:**  
-> 🔗 Coming Soon (Will be updated after deployment)
+🔗 https://ashwaz-flipkart-clone.up.railway.app
 
 ---
 
