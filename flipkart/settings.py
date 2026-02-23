@@ -29,10 +29,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-1jh4er(_r1c5tm176nut9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get("DEBUG", "False") == "True"
 
-ALLOWED_HOSTS = ["web-production-b4585.up.railway.app",]
+ALLOWED_HOSTS = ["ashwaz-flipkart-clone.up.railway.app",]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://web-production-b4585.up.railway.app",
+    "https://ashwaz-flipkart-clone.up.railway.app",
 ]
 
 # Application definition
